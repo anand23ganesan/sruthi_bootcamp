@@ -47,6 +47,26 @@ h2 {
     margin-bottom: 10px;
 }
 
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.button {
+    background: #009879;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #007f67;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
