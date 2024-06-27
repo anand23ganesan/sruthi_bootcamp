@@ -100,3 +100,11 @@ tbody tr:nth-of-type(even) {
 tbody tr:last-of-type {
     border-bottom: 2px solid #009879;
 }
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.pricing-table {
+    margin-bottom: 40px;
+}

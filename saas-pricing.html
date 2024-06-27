@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h1>SaaS Product & Pricing</h1>
-        <table>
+        <table class="pricing-table">
             <thead>
                 <tr>
                     <th>Product</th>
@@ -20,18 +20,30 @@
             <tbody>
                 <tr>
                     <td>Xuriti Credit</td>
-                    <td>₹1,50,000/month</td>
-                    <td>₹2,00,000/month</td>
+                    <td>
+                        <input type="radio" name="credit" id="credit-classic">
+                        <label for="credit-classic">₹1,50,000/month</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="credit" id="credit-premium">
+                        <label for="credit-premium">₹2,00,000/month</label>
+                    </td>
                 </tr>
                 <tr>
                     <td>Xuriti Sales & Marketing</td>
-                    <td>₹50,000/month</td>
-                    <td>₹1,00,000/month</td>
+                    <td>
+                        <input type="radio" name="sales-marketing" id="sales-marketing-classic">
+                        <label for="sales-marketing-classic">₹50,000/month</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="sales-marketing" id="sales-marketing-premium">
+                        <label for="sales-marketing-premium">₹1,00,000/month</label>
+                    </td>
                 </tr>
             </tbody>
         </table>
         
-        <table>
+        <table class="features-table">
             <thead>
                 <tr>
                     <th>Platform Features</th>
