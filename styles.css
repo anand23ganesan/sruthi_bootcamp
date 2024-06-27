@@ -105,8 +105,10 @@ input[type="radio"], input[type="checkbox"] {
     margin-right: 10px;
 }
 
-input[type="checkbox"]:disabled {
-    cursor: not-allowed;
+.check {
+    color: #009879;
+    font-size: 18px;
+    text-align: center;
 }
 
 .pricing-table {
