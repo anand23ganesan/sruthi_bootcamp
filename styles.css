@@ -76,6 +76,7 @@ table {
     border-radius: 8px 8px 0 0;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: 2px solid #009879;
 }
 
 thead tr {
@@ -101,8 +102,12 @@ tbody tr:last-of-type {
     border-bottom: 2px solid #009879;
 }
 
-input[type="radio"], input[type="checkbox"] {
-    margin-right: 10px;
+tbody tr.credit:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+tbody tr.sales:first-of-type {
+    border-top: 2px solid #009879;
 }
 
 .check {
